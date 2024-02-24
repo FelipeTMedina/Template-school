@@ -1,48 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+ padding: 0px;
+ margin: 0px;
+ text-decoration: none;
+
 }
 
 
 nav{
 
     display: flex;
+    justify-content: center;
     gap: 30px;
+    font-size: 20px;
     border: 1px solid black;
-    background-color: rgb(7, 161, 189);
     padding: 30px;
-    font-size: 30px;
+    margin: 10px;
+
+}
+
+nav:hover{
+  background-color: aqua;
+
 }
 
 
 @media(min-width: 576px){
 
-    
-    nav{
-        
-       
-        justify-content:center ;
-        
-    }
+  
 
 
 }
 
 @media(max-width: 576px){
 
-   
-nav {
-    justify-content: center;
+   nav{
+
     flex-direction: column;
     align-items: center;
 
 
-}
-        
-a{
-    
-}
+   }
 
+   nav:hover{
+    background-color: antiquewhite;
+
+   }
 
 }
